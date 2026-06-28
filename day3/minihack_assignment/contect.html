@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Registration Form</h1>
+
+<form>
+
+<label>Full Name</label>
+<input type="text" required>
+
+<label>Email</label>
+<input type="email" required>
+
+<label>Phone Number</label>
+<input type="tel" pattern="[0-9]{10}" required>
+
+<label>Date</label>
+<input type="date" required>
+
+<label>Select Plan</label>
+<select required>
+    <option value="">Choose</option>
+    <option>Basic</option>
+    <option>Pro</option>
+    <option>Enterprise</option>
+</select>
+
+<label>Gender</label>
+
+<input type="radio" name="gender" required> Male
+<input type="radio" name="gender"> Female
+
+<br><br>
+
+<label>Services Interested</label>
+
+<input type="checkbox"> Analytics
+<input type="checkbox"> CRM
+<input type="checkbox"> Cloud
+
+<br><br>
+
+<label>Message</label>
+
+<textarea rows="5"></textarea>
+
+<br><br>
+
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
